@@ -21,10 +21,10 @@ export default function SiteNav() {
       <div className="copyright">
         <h6>
           Copyright (insert-logo) 1995-2022 eBay, Inc. All Rights Reserverd.
-          <span className='copyright-link'> Accesibility,</span>
-          <span className="copyright-link"> User Agreement,</span>
-          <span className="copyright-link"> Privacy,</span>
-          <span className="copyright-link"> Cookies,</span>
+          <span className='copyright-link'> Accesibility</span>,
+          <span className="copyright-link"> User Agreement </span>,
+          <span className="copyright-link"> Privacy </span>,
+          <span className="copyright-link"> Cookies </span>,
           <span className="copyright-link"> Do not sell my personal information </span>
           and
           <span className="copyright-link"> AdChoice (info logo)</span>

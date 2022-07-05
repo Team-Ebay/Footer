@@ -4,12 +4,12 @@ import Ads from './components/Ads';
 import FooterLinks from './components/FooterLinks';
 import SiteNav from './components/SiteNav';
 
-function App() {
+function Footer() {
   const [exploreLinks, setExploreLinks] = useState([]) 
   const [alsoviewed, setAlsoviewed] = useState([])
 
   //  Fetch Funcitons
-  const url = 'http://localhost:5000' || window.location.href
+  const url = 'http://localhost:4005' || window.location.href
 
   const fetchExploreLinks = () => {
     fetch(`${url}/api/explorelinks`)
@@ -47,4 +47,4 @@ function App() {
   );
 }
 
-export default App;
+export default Footer;

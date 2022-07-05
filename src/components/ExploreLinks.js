@@ -2,6 +2,6 @@
 
 export default function ExploreLinks({link}) {
   return (
-    <p className="related-link-text"> {link.title} </p>
+    <li className="related-link-text"> {link.title}, </li>
   )
 }
